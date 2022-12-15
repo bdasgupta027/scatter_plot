@@ -1,0 +1,113 @@
+body {
+  font: 13px sans-serif;
+  color: black;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.countryField{
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.line1{
+    width:inherit;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    line-height: 0px;
+}
+
+.line2{
+    width:inherit;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    line-height: 0px;
+}
+
+.line3{
+    width:inherit;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    line-height: 0px;
+}
+
+.line4{
+    width:inherit;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    line-height: 0px;
+}
+
+
+
+.label{
+    text-align: left;
+    align-content: flex-start;
+    width: inherit;
+}
+
+.colon{
+    text-align: center;
+    width: inherit;
+}
+
+.units{
+    text-align: right;
+/*    align-content: flex-end;*/
+    width: 2000px;
+    
+}
+
+.view {
+  fill: url(#gradient);
+  stroke: #000;
+    outline-color: none;
+}
+
+.hidden{
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    
+}
+/*Add Tooltip Type here*/
+.toolTip {	
+    position:absolute;			
+    text-align:center;			
+    width: 180px;					
+    height: 95px;					
+    padding: 0px;				
+    font: 12px sans-serif;
+    background: lightblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;
+    color:black;
+}
+
+.toolField{
+    text-align: left;
+}
